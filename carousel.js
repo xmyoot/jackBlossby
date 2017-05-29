@@ -1,8 +1,8 @@
 $("#toggleLeft").click(function(){
         $("#myCarousel").fadeOut(1000);
         $(".gallery").hide();
-        $(".other").show();
-        $("#myCarousel4").fadeIn(1500);
+        $(".fullScene").show();
+        $("#myCarousel3").fadeIn(1500);
       });
       $("#toggleLeft2").click(function(){
         $("#myCarousel1").fadeOut(1000);
@@ -22,12 +22,14 @@ $("#toggleLeft").click(function(){
         $(".physique").show();
         $("#myCarousel2").fadeIn(1500);
       });
+	  /*
         $("#toggleLeft5").click(function(){
         $("#myCarousel4").fadeOut(1000);
         $(".other").hide();
         $(".fullScene").show();
         $("#myCarousel3").fadeIn(1500);
       });
+	  */
       $("#toggleRight").click(function(){
           $("#myCarousel").fadeOut(1000);
           $(".gallery").hide();
@@ -49,12 +51,14 @@ $("#toggleLeft").click(function(){
          $("#toggleRight4").click(function(){
         $("#myCarousel3").fadeOut(1000);
         $(".fullScene").hide();
-        $(".other").show();
-        $("#myCarousel4").fadeIn(1500);
+        $(".gallery").show();
+        $("#myCarousel").fadeIn(1500);
       });
+	  /*
         $("#toggleRight5").click(function(){
         $("#myCarousel4").fadeOut(1000);
         $(".other").hide();
         $(".gallery").show();
         $("#myCarousel").fadeIn(1500);
       });
+	  */
